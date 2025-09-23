@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8a203d27-517c-49c6-b322-4aeafbb06553")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "USB+"
+		(shape bidirectional)
+		(at 132.08 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10463ea8-b0c7-4a32-813d-e4014d113b92")
+	)
+	(hierarchical_label "CC1"
+		(shape input)
+		(at 55.88 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "148c547b-bdf2-4140-9dae-a6f35f6c189d")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 55.88 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48014a5d-9531-49bd-876a-36e31564d5d4")
+	)
+	(hierarchical_label "USB_DATA-"
+		(shape input)
+		(at 55.88 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a34455f-e2db-469d-a781-0b7ca0d040f5")
+	)
+	(hierarchical_label "CC2"
+		(shape input)
+		(at 55.88 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b52b1fd-795d-48f7-b8cd-01ba258cfbac")
+	)
+	(hierarchical_label "USB_DATA+"
+		(shape input)
+		(at 55.88 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75f86555-9b4a-4e18-87fb-80093738044c")
+	)
+	(hierarchical_label "USB-"
+		(shape bidirectional)
+		(at 132.08 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82b2902d-1215-43ba-a332-72719e4f330a")
+	)
+	(hierarchical_label "VBUS_Filtered"
+		(shape input)
+		(at 135.89 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e45e9503-1b68-463d-b550-180553f2e69a")
+	)
+)

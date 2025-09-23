@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9ca5af25-084c-4824-918a-371a0892729e")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "VBUS_Filtered"
+		(shape input)
+		(at 58.42 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6774f15e-dc34-4eaa-b9f5-b37086842f43")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 86.36 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d1be5e7-136b-429c-923c-d9493c68e906")
+	)
+)

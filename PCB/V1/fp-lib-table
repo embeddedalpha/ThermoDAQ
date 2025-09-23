@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ThermoDAQ")(type "KiCad")(uri "D:/Projects/ThermoDAQ/PCB/Library/ThermoDAQ.pretty")(options "")(descr ""))
+)
