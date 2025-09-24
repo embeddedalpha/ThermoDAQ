@@ -417,16 +417,20 @@
       "USB_Front_End"
     ],
     [
-      "41d303b4-fb7a-4075-bd60-31aa003b24a1",
-      "Channel_0"
-    ],
-    [
       "e909a618-a870-47c7-a2de-696d9ce4c63b",
       "Power_Section"
     ],
     [
       "05cca664-58e5-439a-9ea6-0faee86606e3",
       "MCU"
+    ],
+    [
+      "be4de14f-74db-42e2-8c5c-9afc97027878",
+      "RS485_Transceiver"
+    ],
+    [
+      "41d303b4-fb7a-4075-bd60-31aa003b24a1",
+      "Channel_0"
     ],
     [
       "fccd15a7-6ce1-4822-a408-37977650a04a",

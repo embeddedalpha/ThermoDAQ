@@ -1147,6 +1147,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(hierarchical_label "USB+"
 		(shape bidirectional)
@@ -1158,6 +1334,17 @@
 			(justify left)
 		)
 		(uuid "00b76df5-ea56-48f6-8cb8-b6f15b5e0d19")
+	)
+	(hierarchical_label "UART1_RX"
+		(shape input)
+		(at 50.8 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "091afb89-2126-47b3-958e-f4058b252da3")
 	)
 	(hierarchical_label "TH7"
 		(shape input)
@@ -1235,6 +1422,17 @@
 			(justify right)
 		)
 		(uuid "5062eba6-c738-4917-aa73-33a3a2753c0e")
+	)
+	(hierarchical_label "UART1_TX"
+		(shape input)
+		(at 50.8 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6142124d-999b-4d34-93ae-ed8875ef5034")
 	)
 	(hierarchical_label "TH11"
 		(shape input)
@@ -1347,6 +1545,77 @@
 		(uuid "fb309818-6c95-44a3-8d9e-1ad2e5b1c248")
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 69.85 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30c788c4-2cf2-49c2-8866-b9b0c7721d81")
+		(property "Reference" "SW401"
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0db468d-97be-46b9-a769-158c6a001545")
+		)
+		(pin "3"
+			(uuid "53787433-676b-4b12-9579-2a289bf601ea")
+		)
+		(pin "1"
+			(uuid "8042714c-3f6c-410a-a53f-4cc5773429a4")
+		)
+		(instances
+			(project ""
+				(path "/b40ca3c0-cc7e-4fec-b4a7-67870c2202cb/05cca664-58e5-439a-9ea6-0faee86606e3"
+					(reference "SW401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32F4:STM32F411CEUx")
 		(at 140.97 95.25 0)
 		(unit 1)
@@ -1356,7 +1625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9be97cc-5bdf-4842-a8dc-72162d23ad97")
-		(property "Reference" "U?"
+		(property "Reference" "U401"
 			(at 145.6533 135.89 0)
 			(effects
 				(font
@@ -1552,7 +1821,7 @@
 		(instances
 			(project ""
 				(path "/b40ca3c0-cc7e-4fec-b4a7-67870c2202cb/05cca664-58e5-439a-9ea6-0faee86606e3"
-					(reference "U?")
+					(reference "U401")
 					(unit 1)
 				)
 			)
